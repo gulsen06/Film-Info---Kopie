@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.button:hover {
+  color: brown;
+  text-decoration: underline;
+  transform: scale(1.1);
+}
+.animasyon {
+  animation: animasyon 3s linear infinite alternate;
+}
+@keyframes animasyon {
+  0% {
+    transform: translateX(-10%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
